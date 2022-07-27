@@ -1,0 +1,42 @@
+/* navabar section */
+#navbar{
+    flex-direction: column;
+    height: 50px;
+}
+#logo{
+    margin: 18px 47px;
+}
+/* home section */
+#home{
+    height: 370px;
+    display: block;
+    margin: auto;
+}
+#home::before{
+    height: 480px; 
+}
+/* services section */
+#services{
+    flex-direction: column;
+    display: block;
+    margin: auto;
+
+}
+#services .box img {
+    height: 90px
+}
+
+
+#services .box p{
+    font-size: 10px;
+}
+
+.h-primary{
+    font-size:26px;
+}
+/* clients section */
+
+/* contact section */
+
+/* footer section */
+
