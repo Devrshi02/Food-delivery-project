@@ -23,10 +23,10 @@
             <li class="items"><a href="#client-section">About</a></li>
             <li class="items"><a href="#contact">Contact us</a></li>
         </ul>
-        <div class="NavRight">
+        <div id="NavRight">
              <input class="search_button" type="search" placeholder="  search" aria-label="search">
-             <a href="#">Register</a>
-             <a  href="form.html">login</a>
+             
+             <a  href="form.html" target="_blank">Sign up</a>
         </div>
         
     </nav>
@@ -34,7 +34,7 @@
         <h1 class="h-primary">Welcome To MyOnlineMeal</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <p>Lorem ipsum dolor elit.</p>
-        <button  class="btn"><a href="innerpage.html">order now</a></button>
+        <button  class="btn"><a href="innerpage.html" target="_blank">order now</a></button>
     </section>
 
     <section class="services-container">
@@ -71,7 +71,7 @@
         <h1 class="h-primary center">Our Clients</h1>
         <div id="clients">
             <div id="clients-item">
-                <img class="apple" src="apple logo.png" alt="apple logo">
+                <img id="appleimg" src="apple logo.png" alt="apple logo">
             </div>
             <div id="clients-item">
                 <img src="hp logo .png" alt="hp logo">
@@ -99,6 +99,12 @@
                         <td>Email: </td>
                         <td>
                             <input type="Email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Query</td>
+                        <td>
+                            <textarea name="textarea" id="" cols="30" rows="10" placeholder="here write your question ..."></textarea>
                         </td>
                     </tr>
                 </table>                
