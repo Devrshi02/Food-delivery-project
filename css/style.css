@@ -16,7 +16,7 @@ html{
 #navbar{
     display: flex;
     /* align-items: center; */
-    position: relative;
+    position: sticky;
     top: 0px;
 }
 
@@ -69,16 +69,23 @@ html{
     text-decoration: none;
 
 }
-.NavRight{
+#NavRight{
     margin-left: auto;
+    margin-top: 11px;
 }
-.NavRight a{
+#NavRight a{
     text-decoration: none;
+    border-radius: 2px;
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    color: black;
+    margin: 5px 5px;
 }
-.NavRight a :hover{
-    color: rgb(247, 243, 9);
-    background-color: bisque;
-}
+/* #NavRight a:hover{
+    color: black;
+    background-color: white;
+} */
 .search_button{
 
     border-radius: 9px;
@@ -119,13 +126,14 @@ html{
 .btn{
     padding: 6px 9px;
     margin: 8px;
+    text-decoration: none;
     /* border: 4px solid white; */
     border-radius: 10px;
     cursor: pointer;
-    
 }
 .btn a{
     text-decoration: none;
+    color: black;
 }
 /* utility classes */
 /* .d-flex
@@ -169,6 +177,9 @@ html{
     height: 150px;
     margin: auto;
     display: block;
+}
+#appleimg{
+    border-radius: 320px 320px;
 }
 #services .box p{
     font-family: 'Bree Serif', serif;
